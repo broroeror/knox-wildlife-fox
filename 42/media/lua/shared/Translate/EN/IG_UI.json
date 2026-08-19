@@ -1,0 +1,15 @@
+{
+    "IGUI_Breed_default": "Common",
+    "IGUI_AnimalType_kwc_foxkit": "Fox Kit",
+    "IGUI_AnimalType_kwc_foxvixen": "Vixen",
+    "IGUI_AnimalType_kwc_foxdog": "Dog Fox",
+    "IGUI_AnimalType_kwc_coyotepup": "Coyote Pup",
+    "IGUI_AnimalType_kwc_coyotefemale": "Coyote",
+    "IGUI_AnimalType_kwc_coyotemale": "Coyote",
+    "IGUI_AnimalType_kwc_bobcatkitten": "Bobcat Kitten",
+    "IGUI_AnimalType_kwc_bobcatfemale": "Bobcat",
+    "IGUI_AnimalType_kwc_bobcatmale": "Bobcat",
+    "IGUI_AnimalType_kwc_squirrelkit": "Squirrel Kit",
+    "IGUI_AnimalType_kwc_squirrelfemale": "Grey Squirrel",
+    "IGUI_AnimalType_kwc_squirrelmale": "Grey Squirrel"
+}

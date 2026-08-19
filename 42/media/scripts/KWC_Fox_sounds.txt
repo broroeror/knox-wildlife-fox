@@ -1,0 +1,97 @@
+module Base
+{
+    sound KWC_FoxAdult_Idle
+    {
+        category = Animals,
+        clip
+        {
+            file = media/sound/KWC_FoxAdult_Idle.ogg,
+            distanceMax = 190,
+        }
+        clip
+        {
+            file = media/sound/KWC_FoxAdult_Idle2.ogg,
+            distanceMax = 190,
+        }
+        clip
+        {
+            file = media/sound/KWC_FoxAdult_Idle3.ogg,
+            distanceMax = 190,
+        }
+    }
+
+    sound KWC_FoxAdult_Stressed
+    {
+        category = Animals,
+        clip
+        {
+            file = media/sound/KWC_FoxAdult_Stressed.ogg,
+            distanceMax = 190,
+        }
+        clip
+        {
+            file = media/sound/KWC_FoxAdult_Stressed2.ogg,
+            distanceMax = 190,
+        }
+    }
+
+    sound KWC_FoxAdult_Pain
+    {
+        category = Animals,
+        clip
+        {
+            file = media/sound/KWC_FoxAdult_Pain.ogg,
+            distanceMax = 190,
+        }
+    }
+
+    sound KWC_FoxAdult_Death
+    {
+        category = Animals,
+        clip
+        {
+            file = media/sound/KWC_FoxAdult_Death.ogg,
+            distanceMax = 190,
+        }
+    }
+
+    sound KWC_FoxBaby_Idle
+    {
+        category = Animals,
+        clip
+        {
+            file = media/sound/KWC_FoxBaby_Idle.ogg,
+            distanceMax = 95,
+        }
+    }
+
+    sound KWC_FoxBaby_Stressed
+    {
+        category = Animals,
+        clip
+        {
+            file = media/sound/KWC_FoxBaby_Stressed.ogg,
+            distanceMax = 95,
+        }
+    }
+
+    sound KWC_FoxBaby_Pain
+    {
+        category = Animals,
+        clip
+        {
+            file = media/sound/KWC_FoxBaby_Pain.ogg,
+            distanceMax = 95,
+        }
+    }
+
+    sound KWC_FoxBaby_Death
+    {
+        category = Animals,
+        clip
+        {
+            file = media/sound/KWC_FoxBaby_Death.ogg,
+            distanceMax = 95,
+        }
+    }
+}
