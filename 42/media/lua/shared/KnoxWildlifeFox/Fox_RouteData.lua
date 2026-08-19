@@ -4216,8 +4216,8 @@ KnoxWildlifeFox.Routes = {
 -- Hand the pool to Knox Wildlife. Guarded because a user
 -- can disable the base mod and leave this one enabled, and a
 -- silent no-op reads better than a stack trace on their screen.
-if KnoxWildlife and KnoxWildlife.registerRoutePool then
+if KnoxLife and KnoxLife.registerRoutePool then
     for name, pool in pairs(KnoxWildlifeFox.Routes) do
-        KnoxWildlife.registerRoutePool(name, pool)
+        KnoxLife.registerRoutePool(name, pool)
     end
 end

@@ -11,13 +11,13 @@
 -- raccoon and wrong for this. Declaring `habitat` against a pool of our own
 -- means it inherits nothing: its own terrain, its own geometry, no sharing.
 
-if not KnoxWildlife or (KnoxWildlife.API_VERSION or 0) < 1 then
+if not KnoxLife or (KnoxLife.API_VERSION or 0) < 1 then
     print("[KnoxWildlifeFox] Knox Wildlife not found (or too old); "
         .. "this addon needs API_VERSION 1. Not loading.")
     return
 end
 
-local KW = KnoxWildlife
+local KW = KnoxLife
 local ID = "kwc_fox"
 
 -- Density is the only number that decides how common this animal is. The base
