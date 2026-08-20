@@ -1,13 +1,13 @@
 {
-    "Sandbox_KnoxWildlifeFox_Enabled": "Foxes: add them to the world",
-    "Sandbox_KnoxWildlifeFox_Enabled_tooltip": "Red fox: farm edge, fencerow and woodland margin, and the most adaptable of the four. Thrives near people. Turn this off to leave foxs out entirely: their routes are then not placed at all, and nothing else changes, because each species has its own target and none of them share a pool.",
-    "Sandbox_KnoxWildlifeFox_Routes": "Foxes: number of groups",
-    "Sandbox_KnoxWildlifeFox_Routes_tooltip": "Multiplies this species' population, on top of Wildlife density. This is the setting that changes how many foxs actually exist. Does nothing unless foxs are turned on above.",
-    "Sandbox_KnoxWildlifeFox_GroupSize": "Foxes: animals per group",
-    "Sandbox_KnoxWildlifeFox_GroupSize_tooltip": "Multiplies the size of each fox group, on top of Group size. This does NOT change how many foxs exist: the group count is divided to match, so you meet the same animals gathered into fewer, larger groups.",
-    "Sandbox_KnoxWildlifeFox_Scale_option1": "1/4x",
-    "Sandbox_KnoxWildlifeFox_Scale_option2": "1/2x",
-    "Sandbox_KnoxWildlifeFox_Scale_option3": "Normal",
-    "Sandbox_KnoxWildlifeFox_Scale_option4": "1.5x",
-    "Sandbox_KnoxWildlifeFox_Scale_option5": "2x"
+    "Sandbox_KnoxLifeFoxes_Enabled": "Foxes: add them to the world",
+    "Sandbox_KnoxLifeFoxes_Enabled_tooltip": "Red fox: farm edge, fencerow and woodland margin, and the most adaptable of the four. Thrives near people. Turn this off to leave foxs out entirely: their routes are then not placed at all, and nothing else changes, because each species has its own target and none of them share a pool.",
+    "Sandbox_KnoxLifeFoxes_Routes": "Foxes: number of groups",
+    "Sandbox_KnoxLifeFoxes_Routes_tooltip": "Multiplies this species' population, on top of Wildlife density. This is the setting that changes how many foxs actually exist. Does nothing unless foxs are turned on above.",
+    "Sandbox_KnoxLifeFoxes_GroupSize": "Foxes: animals per group",
+    "Sandbox_KnoxLifeFoxes_GroupSize_tooltip": "Multiplies the size of each fox group, on top of Group size. This does NOT change how many foxs exist: the group count is divided to match, so you meet the same animals gathered into fewer, larger groups.",
+    "Sandbox_KnoxLifeFoxes_Scale_option1": "1/4x",
+    "Sandbox_KnoxLifeFoxes_Scale_option2": "1/2x",
+    "Sandbox_KnoxLifeFoxes_Scale_option3": "Normal",
+    "Sandbox_KnoxLifeFoxes_Scale_option4": "1.5x",
+    "Sandbox_KnoxLifeFoxes_Scale_option5": "2x"
 }

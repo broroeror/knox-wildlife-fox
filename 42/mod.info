@@ -1,5 +1,5 @@
-name=Knox Wildlife: Fox
-id=KnoxWildlifeFox
+name=KnoxLife: Foxes
+id=KnoxLifeFoxes
 description=Red fox: farm edge, fencerow and woodland margin, and the most adaptable of the four. Thrives near people. Built on a vanilla animal skeleton so it uses the game's own animation set, and placed on habitat baked for it rather than borrowed from another animal. REQUIRES Knox Wildlife.
 require=KnoxLife
 modversion=0.1.0

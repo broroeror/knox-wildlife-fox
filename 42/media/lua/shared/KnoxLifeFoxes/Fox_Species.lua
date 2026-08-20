@@ -12,7 +12,7 @@
 -- means it inherits nothing: its own terrain, its own geometry, no sharing.
 
 if not KnoxLife or (KnoxLife.API_VERSION or 0) < 1 then
-    print("[KnoxWildlifeFox] Knox Wildlife not found (or too old); "
+    print("[KnoxLifeFoxes] Knox Wildlife not found (or too old); "
         .. "this addon needs API_VERSION 1. Not loading.")
     return
 end
@@ -37,7 +37,7 @@ local DENSITY = 2.0
 -- an animal id.
 if AnimalDefinitions and AnimalDefinitions.animals
     and AnimalDefinitions.animals["kwc_foxvixen"] == nil then
-    print("[KnoxWildlifeFox] no animal definition for kwc_foxvixen; not registering. "
+    print("[KnoxLifeFoxes] no animal definition for kwc_foxvixen; not registering. "
         .. "Its Definitions/animal file did not load.")
     return
 end
@@ -50,13 +50,13 @@ if KW.registerSpecies(ID, {
     trackSize = "small", speed = 0.06,
     density = DENSITY,
     habitat = ID,
-    enabledOption = "KnoxWildlifeFox.Enabled",
-    routeOption  = "KnoxWildlifeFox.Routes",
-    groupOption  = "KnoxWildlifeFox.GroupSize",
+    enabledOption = "KnoxLifeFoxes.Enabled",
+    routeOption  = "KnoxLifeFoxes.Routes",
+    groupOption  = "KnoxLifeFoxes.GroupSize",
 }) then
     -- The bucket decides only the FALLBACK pool, and this declares its own
     -- habitat, so the weight is vestigial. Passed because addToBucket is public
     -- API from version 1 and an addon written then supplies one.
     KW.addToBucket("small", ID, 50)
-    print("[KnoxWildlifeFox] registered on its own habitat (API v" .. KW.API_VERSION .. ")")
+    print("[KnoxLifeFoxes] registered on its own habitat (API v" .. KW.API_VERSION .. ")")
 end
